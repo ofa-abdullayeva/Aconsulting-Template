@@ -1,0 +1,32 @@
+/*==========MAIN START==========*/
+
+/*========== Content Section Starts==========*/
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 760px;
+    
+    
+    &__main{
+        width: 860px;
+        height: 428px;
+        text-align: center;
+        h4{
+            margin-top: $margin__top;
+            color: $light-color;
+            width: 539px;
+            height: 60px;
+            margin-left: 160.5px;
+            margin-bottom: $margin__top;
+            
+        }
+       
+       
+        
+    }
+}
+/*========== Content Section Ends============*/
+
+
+/*==========MAIN END==========*/

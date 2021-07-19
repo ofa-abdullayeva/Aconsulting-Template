@@ -1,0 +1,136 @@
+/*Variables*/
+/*Mixins*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;900&display=swap");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+html {
+  font-size: 14px;
+  background-image: url("/assets/images/images/background.jpg");
+  background-repeat: no-repeat;
+  height: 793px;
+  width: 1498px;
+}
+
+.container {
+  padding: 0 195px;
+}
+
+h1 {
+  font-family: Montserrat;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  font-size: 58px;
+  line-height: 80px;
+  color: #fff;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 32px;
+  font-style: bold;
+}
+
+h4 {
+  font-size: 20px;
+  line-height: 30px;
+  font-style: normal;
+}
+
+a {
+  color: #fff;
+}
+
+/*==========BUTTONS START==========*/
+.btn {
+  width: 185;
+  height: 48px;
+  border-radius: 37px;
+  padding: 10px, 36px, 10px, 36px;
+  border: 1px solid;
+  padding: 10px 36px;
+}
+
+.btn-first {
+  background-color: #FF7B47;
+  color: #fff;
+  border: none;
+}
+
+/*==========BUTTONS END==========*/
+/*==========NAVIGATION START==========*/
+/*==========NAVIGATION END==========*/
+/*==========HEADER START==========*/
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .nav__icon h3 {
+  color: #fff;
+}
+
+header .container .nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .container .nav__list__item {
+  margin-right: 21px;
+}
+
+header .container .nav__toggle {
+  display: none;
+}
+
+/*==========HEADER END==========*/
+/*==========FORM START==========*/
+/*==========FORM END==========*/
+/*==========GRID START==========*/
+/*==========GRID END==========*/
+/*==========FOOTER START==========*/
+/*==========FOOTER END==========*/
+/*==========MAIN START==========*/
+/*========== Content Section Starts==========*/
+.content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 760px;
+}
+
+.content__main {
+  width: 860px;
+  height: 428px;
+  text-align: center;
+}
+
+.content__main h4 {
+  margin-top: 40px;
+  color: #fff;
+  width: 539px;
+  height: 60px;
+  margin-left: 160.5px;
+  margin-bottom: 40px;
+}
+
+/*========== Content Section Ends============*/
+/*==========MAIN END==========*/
+/*Media Query 1200px start*/
+/*Media Query 1200px end*/
+/*Media Query 992px start*/
+/*Media Query 992px end*/
+/*Media Query 768px start*/
+/*Media Query 768px end*/
+/*Media Query 576px start*/
+/*Media Query 576px end*/
+/*# sourceMappingURL=main.css.map */

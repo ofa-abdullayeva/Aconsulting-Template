@@ -1,0 +1,44 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	list-style-type: none;
+}
+html {
+	font-size: $font__size-lg;
+	background-image: url("/assets/images/images/background.jpg");
+	background-repeat: no-repeat;
+	height: 793px;
+	width: 1498px;
+}
+
+.container{
+	padding: 0 $padding__base;
+}
+// h1,h2,h3,h4,h5,h6
+h1{
+	font-family: Montserrat;
+	font-weight: 800;
+	letter-spacing: 0.2px;
+	font-size: 58px;
+	line-height: 80px;
+	color: $light-color;
+}
+
+h3{
+	font-size: 24px;
+	line-height: 32px;
+	font-style: bold;
+}
+h4{
+	font-size: 20px;
+	line-height: 30px;
+	font-style: normal;
+}
+
+a{
+	color: $light-color;
+}

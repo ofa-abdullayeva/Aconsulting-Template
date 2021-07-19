@@ -1,0 +1,16 @@
+/*==========BUTTONS START==========*/
+.btn{
+    width: 185;
+    height: 48px;
+    border-radius: 37px;
+    padding: 10px, 36px, 10px, 36px;
+    border: 1px solid;
+    padding: 10px 36px;
+    &-first{
+        background-color: $primary-color;
+        color: $light-color;
+        border: none;
+    }
+}
+
+/*==========BUTTONS END==========*/

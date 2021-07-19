@@ -1,0 +1,31 @@
+/*==========HEADER START==========*/
+header {
+
+	
+	
+	.container{
+		@include flex;
+		.nav__icon{
+			h3{
+				color: $light-color
+			}
+		}
+	
+		.nav__list{
+		@include flex;
+		 &__item{
+			
+			margin-right: 21px;	
+			
+			
+		 }
+		
+	    }
+		.nav__toggle{
+			display: none;
+		}
+	}
+	
+	
+}
+/*==========HEADER END==========*/
