@@ -44,8 +44,23 @@ h4 {
   font-style: normal;
 }
 
+h5 {
+  font-size: 16px;
+  line-height: 24px;
+  font-style: normal;
+  letter-spacing: 0.1px;
+}
+
 a {
   color: #fff;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+.bg-primary {
+  background-color: #252B42;
 }
 
 /*==========BUTTONS START==========*/
@@ -65,6 +80,13 @@ a {
 }
 
 /*==========BUTTONS END==========*/
+.card_btn {
+  width: 9rem;
+  height: 3rem;
+  padding: 1rem 2rem;
+  border-radius: 3.7rem;
+}
+
 /*==========NAVIGATION START==========*/
 /*==========NAVIGATION END==========*/
 /*==========HEADER START==========*/
@@ -140,6 +162,32 @@ header .container .nav__toggle {
 }
 
 /*========== Content Section Ends============*/
+/*========== Services Section Ends============*/
+.services {
+  background: #FAFAFA;
+  margin-top: 28px;
+}
+
+.services__items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.services__items__card {
+  padding: 42px;
+}
+
+.services__items__card:not(:last-child) {
+  background-color: #fff;
+  margin-right: 40px;
+}
+
+.services__items__card:last-child {
+  color: #fff;
+}
+
+/*========== services Section Ends============*/
 /*==========MAIN END==========*/
 /*Media Query 1200px start*/
 /*Media Query 1200px end*/

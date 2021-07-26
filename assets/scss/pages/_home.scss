@@ -47,5 +47,33 @@
 }
 /*========== Content Section Ends============*/
 
+//
 
+/*========== Services Section Ends============*/
+
+.services{
+    background: #FAFAFA;
+    margin-top: 28px;
+
+    &__items{
+        @include flex;
+
+        &__card{
+            
+            padding: $padding__card;
+            
+            &:not(:last-child){
+             background-color: $light-color; 
+              margin-right: 40px; 
+            }
+            &:last-child{
+                color: $light-color;
+            }
+        }
+    }
+}
+
+/*========== services Section Ends============*/
+
+//
 /*==========MAIN END==========*/
