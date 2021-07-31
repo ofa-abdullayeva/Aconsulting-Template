@@ -37,7 +37,6 @@ h2 {
   line-height: 57px;
   letter-spacing: 0.2px;
   font-weight: bold;
-  color: #252B42;
 }
 
 h3 {
@@ -75,16 +74,16 @@ a {
   margin-bottom: 20px;
 }
 
-.mr-3 {
-  margin-right: 20px;
-}
-
 .bg-primary {
   background-color: #252B42;
 }
 
 p {
   color: #737373;
+}
+
+.light-color {
+  color: #fff;
 }
 
 /*==========BUTTONS START==========*/
@@ -258,6 +257,43 @@ header .container .nav__toggle {
 }
 
 /*========== AboutUs Section Ends============*/
+/*========== Client Section starts============*/
+.client {
+  height: 620px;
+  background-color: #17213C;
+}
+
+.client__header {
+  text-align: center;
+  margin: 100px 350px;
+}
+
+.client__header p {
+  color: #fff;
+  text-align: center;
+}
+
+.client__main {
+  display: flex;
+}
+
+.client__main__card {
+  background-color: #fff;
+  padding: 30px 40px;
+  position: relative;
+}
+
+.client__main__card:not(:last-child) {
+  margin-right: 97px;
+}
+
+.client__main__author {
+  position: absolute;
+  top: 10px;
+  left: -60px;
+}
+
+/*========== client Section starts============*/
 /*==========MAIN END==========*/
 /*Media Query 1200px start*/
 /*Media Query 1200px end*/

@@ -119,4 +119,43 @@
     }
 }
 /*========== AboutUs Section Ends============*/
+
+
+/*========== Client Section starts============*/
+.client{
+    height: 620px;
+    background-color: $secondary-color;
+    &__header{
+       text-align: center;
+       margin: 100px 350px;
+      
+       p{
+           color: $light-color;
+           text-align: center;
+       }
+       
+    }
+
+    &__main{
+        display: flex;
+
+        &__card{
+            background-color: $light-color;
+            padding: 30px 40px;
+            position: relative;
+
+            &:not(:last-child){
+                margin-right: 97px;
+            }
+        }
+        &__author{
+            position: absolute;
+            top: 10px;
+            left: -60px;
+        }
+    }
+}
+/*========== client Section starts============*/
+
+
 /*==========MAIN END==========*/
