@@ -1,2 +1,34 @@
 /*==========FOOTER START==========*/
+.footer{
+    &__main{
+        display: flex;
+        &__description{
+            padding: 60px;
+
+            h3{
+                margin-bottom: 22px;
+            }
+            a{
+                color: $second-text-color;
+               
+            }
+            p{
+                padding-bottom: 10px;
+            }
+            .icon{
+                img{
+                    margin-right: 10px;
+                }
+                
+            }
+        }
+    }
+
+    &__description{
+        text-align: center;
+        padding: 20px;
+        background-color: $background-color;
+        
+    }
+}
 /*==========FOOTER END==========*/
