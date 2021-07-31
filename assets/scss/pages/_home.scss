@@ -97,6 +97,21 @@
                transform: translate(-50%, -50%);
            }
        }
+       &__content{
+           padding: 10px 100px;
+           p{
+               margin-bottom: 50px;
+           }
+           figure{
+               display: flex;
+               img{
+                   margin: 0 10px;
+               }
+               h6{
+                   margin-right: 20px;
+               }
+           }
+       }
        
 
         

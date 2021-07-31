@@ -75,8 +75,16 @@ a {
   margin-bottom: 20px;
 }
 
+.mr-3 {
+  margin-right: 20px;
+}
+
 .bg-primary {
   background-color: #252B42;
+}
+
+p {
+  color: #737373;
 }
 
 /*==========BUTTONS START==========*/
@@ -227,6 +235,26 @@ header .container .nav__toggle {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.about__main__content {
+  padding: 10px 100px;
+}
+
+.about__main__content p {
+  margin-bottom: 50px;
+}
+
+.about__main__content figure {
+  display: flex;
+}
+
+.about__main__content figure img {
+  margin: 0 10px;
+}
+
+.about__main__content figure h6 {
+  margin-right: 20px;
 }
 
 /*========== AboutUs Section Ends============*/
