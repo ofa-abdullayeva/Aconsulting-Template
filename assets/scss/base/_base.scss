@@ -13,6 +13,7 @@ html {
 	background-repeat: no-repeat;
 	height: 793px;
 	width: 1498px;
+	
 }
 
 .container{
@@ -26,6 +27,14 @@ h1{
 	font-size: 58px;
 	line-height: 80px;
 	color: $light-color;
+}
+
+h2{
+	font-size: 40px;
+	line-height: 57px;
+	letter-spacing: 0.2px;
+	font-weight: bold;
+	color: $text-color;
 }
 
 h3{
@@ -44,6 +53,13 @@ h5{
 	line-height: 24px;
 	font-style: normal;
 	letter-spacing: 0.1px;
+}
+h6{
+	font-size: 14px;
+	line-height: 24px;
+	font-weight: 600;
+	letter-spacing: 0.2px;
+	color: #737373;
 }
 
 a{

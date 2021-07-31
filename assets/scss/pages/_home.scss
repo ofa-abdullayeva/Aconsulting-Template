@@ -75,5 +75,33 @@
 
 /*========== services Section Ends============*/
 
-//
+
+/*========== AboutUs Section starts============*/
+.about{
+    background: #FAFAFA;
+   &__header{
+       text-align: center;
+       margin: 100px 350px;
+     }
+
+   &__main{   
+       display: flex;
+       
+       &__video{
+           position: relative;
+
+           .icon{
+               position: absolute;
+               top: 50%;
+               left: 50%;
+               transform: translate(-50%, -50%);
+           }
+       }
+       
+
+        
+       
+    }
+}
+/*========== AboutUs Section Ends============*/
 /*==========MAIN END==========*/

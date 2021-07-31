@@ -32,6 +32,14 @@ h1 {
   color: #fff;
 }
 
+h2 {
+  font-size: 40px;
+  line-height: 57px;
+  letter-spacing: 0.2px;
+  font-weight: bold;
+  color: #252B42;
+}
+
 h3 {
   font-size: 24px;
   line-height: 32px;
@@ -49,6 +57,14 @@ h5 {
   line-height: 24px;
   font-style: normal;
   letter-spacing: 0.1px;
+}
+
+h6 {
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+  color: #737373;
 }
 
 a {
@@ -188,6 +204,32 @@ header .container .nav__toggle {
 }
 
 /*========== services Section Ends============*/
+/*========== AboutUs Section starts============*/
+.about {
+  background: #FAFAFA;
+}
+
+.about__header {
+  text-align: center;
+  margin: 100px 350px;
+}
+
+.about__main {
+  display: flex;
+}
+
+.about__main__video {
+  position: relative;
+}
+
+.about__main__video .icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/*========== AboutUs Section Ends============*/
 /*==========MAIN END==========*/
 /*Media Query 1200px start*/
 /*Media Query 1200px end*/
