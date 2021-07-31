@@ -158,4 +158,34 @@
 /*========== client Section starts============*/
 
 
+/*========== Team Section starts============*/
+.team{
+    background-color: $background-color;
+    height: 600px;
+    &__header{
+        text-align: center;
+       margin: 100px 350px;
+    }
+
+    &__description{
+        display: flex;
+       
+        &__card{
+            background-color: $light-color;
+            padding: 30px 50px;
+            h6{
+                color: $primary-color;
+            }
+            h5{
+                color: $text-color;
+            }
+            &:not(:last-child){
+                margin-right: 40px;
+            }
+        }
+    }
+}
+/*========== Team Section ends============*/
+
+
 /*==========MAIN END==========*/

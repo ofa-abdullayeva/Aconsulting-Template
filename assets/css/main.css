@@ -294,6 +294,39 @@ header .container .nav__toggle {
 }
 
 /*========== client Section starts============*/
+/*========== Team Section starts============*/
+.team {
+  background-color: #FAFAFA;
+  height: 600px;
+}
+
+.team__header {
+  text-align: center;
+  margin: 100px 350px;
+}
+
+.team__description {
+  display: flex;
+}
+
+.team__description__card {
+  background-color: #fff;
+  padding: 30px 50px;
+}
+
+.team__description__card h6 {
+  color: #FF7B47;
+}
+
+.team__description__card h5 {
+  color: #252B42;
+}
+
+.team__description__card:not(:last-child) {
+  margin-right: 40px;
+}
+
+/*========== Team Section ends============*/
 /*==========MAIN END==========*/
 /*Media Query 1200px start*/
 /*Media Query 1200px end*/
