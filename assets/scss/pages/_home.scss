@@ -62,7 +62,6 @@
 
         &__card{
             width: 230px;
-            
             height: 290px;
             padding: $padding__card;
             box-shadow: $box-shadow;
@@ -213,7 +212,7 @@
                 color: $light-color;
             }
             img{
-                background-clip: $text-color ;
+                opacity: 0.1;
             }
             &:not(:last-child){
                 margin-right: 100px;

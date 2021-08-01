@@ -381,7 +381,7 @@ header .container .nav__toggle {
 }
 
 .form__map__description img {
-  background-clip: #252B42;
+  opacity: 0.1;
 }
 
 .form__map__description:not(:last-child) {
