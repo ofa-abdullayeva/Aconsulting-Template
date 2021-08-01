@@ -57,10 +57,12 @@
 
     &__items{
         @include flex;
+        
 
         &__card{
             
             padding: $padding__card;
+            box-shadow: $box-shadow;
             
             &:not(:last-child){
              background-color: $light-color; 
@@ -81,11 +83,12 @@
     background: #FAFAFA;
    &__header{
        text-align: center;
-       margin: 100px 350px;
+       padding: $padding__section;
      }
 
    &__main{   
        display: flex;
+       
        
        &__video{
            position: relative;
@@ -123,11 +126,11 @@
 
 /*========== Client Section starts============*/
 .client{
-    height: 620px;
+    height: 600px;
     background-color: $secondary-color;
     &__header{
        text-align: center;
-       margin: 100px 350px;
+       padding: $padding__section;
       
        p{
            color: $light-color;
@@ -143,6 +146,7 @@
             background-color: $light-color;
             padding: 30px 40px;
             position: relative;
+            box-shadow: $box-shadow;
 
             &:not(:last-child){
                 margin-right: 97px;
@@ -163,8 +167,9 @@
     background-color: $background-color;
     height: 600px;
     &__header{
+        
         text-align: center;
-       margin: 100px 350px;
+       padding: $padding__section;
     }
 
     &__description{
@@ -173,6 +178,7 @@
         &__card{
             background-color: $light-color;
             padding: 30px 50px;
+            box-shadow: $box-shadow;
             h6{
                 color: $primary-color;
             }
@@ -192,6 +198,7 @@
     height: 1100px;
     background-color: $background-color;
     position: relative;
+    
     &__map{
         display: flex;
         padding: 100px;
@@ -215,6 +222,7 @@
         background-color: $text-color;
     }
     &__registr{
+        box-shadow: $box-shadow;
         position: absolute;
         left: 190px;
         position: absolute;

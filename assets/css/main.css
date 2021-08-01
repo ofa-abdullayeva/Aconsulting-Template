@@ -225,6 +225,7 @@ header .container .nav__toggle {
 
 .services__items__card {
   padding: 42px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .services__items__card:not(:last-child) {
@@ -244,7 +245,7 @@ header .container .nav__toggle {
 
 .about__header {
   text-align: center;
-  margin: 100px 350px;
+  padding: 80px 350px;
 }
 
 .about__main {
@@ -285,13 +286,13 @@ header .container .nav__toggle {
 /*========== AboutUs Section Ends============*/
 /*========== Client Section starts============*/
 .client {
-  height: 620px;
+  height: 600px;
   background-color: #17213C;
 }
 
 .client__header {
   text-align: center;
-  margin: 100px 350px;
+  padding: 80px 350px;
 }
 
 .client__header p {
@@ -307,6 +308,7 @@ header .container .nav__toggle {
   background-color: #fff;
   padding: 30px 40px;
   position: relative;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .client__main__card:not(:last-child) {
@@ -328,7 +330,7 @@ header .container .nav__toggle {
 
 .team__header {
   text-align: center;
-  margin: 100px 350px;
+  padding: 80px 350px;
 }
 
 .team__description {
@@ -338,6 +340,7 @@ header .container .nav__toggle {
 .team__description__card {
   background-color: #fff;
   padding: 30px 50px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 
 .team__description__card h6 {
@@ -388,6 +391,7 @@ header .container .nav__toggle {
 }
 
 .form__registr {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   position: absolute;
   left: 190px;
   position: absolute;
