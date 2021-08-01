@@ -53,14 +53,17 @@
 
 .services{
     background: #FAFAFA;
-    margin-top: 28px;
+    padding-top: 80px;
+    padding-bottom: 50px;
 
     &__items{
         @include flex;
         
 
         &__card{
+            width: 230px;
             
+            height: 290px;
             padding: $padding__card;
             box-shadow: $box-shadow;
             
