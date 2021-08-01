@@ -189,13 +189,13 @@
 
 /*========== Form Section starts============*/
 .form{
-    height: 1290px;
+    height: 1100px;
     background-color: $background-color;
     position: relative;
     &__map{
         display: flex;
         padding: 100px;
-        height: 600px;
+        height: 720px;
         // background-color: $text-color;
         &__description{
             color: $light-color;
@@ -217,7 +217,8 @@
     &__registr{
         position: absolute;
         left: 190px;
-        
+        position: absolute;
+        bottom: 7%;
         display: flex;
         height: 642px;
         form{

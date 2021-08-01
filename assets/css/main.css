@@ -355,7 +355,7 @@ header .container .nav__toggle {
 /*========== Team Section ends============*/
 /*========== Form Section starts============*/
 .form {
-  height: 1290px;
+  height: 1100px;
   background-color: #FAFAFA;
   position: relative;
 }
@@ -363,7 +363,7 @@ header .container .nav__toggle {
 .form__map {
   display: flex;
   padding: 100px;
-  height: 600px;
+  height: 720px;
 }
 
 .form__map__description {
@@ -390,6 +390,8 @@ header .container .nav__toggle {
 .form__registr {
   position: absolute;
   left: 190px;
+  position: absolute;
+  bottom: 7%;
   display: flex;
   height: 642px;
 }
