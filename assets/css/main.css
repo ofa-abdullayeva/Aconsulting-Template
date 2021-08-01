@@ -353,6 +353,72 @@ header .container .nav__toggle {
 }
 
 /*========== Team Section ends============*/
+/*========== Form Section starts============*/
+.form {
+  height: 1290px;
+  background-color: #FAFAFA;
+  position: relative;
+}
+
+.form__map {
+  display: flex;
+  padding: 100px;
+  height: 600px;
+}
+
+.form__map__description {
+  color: #fff;
+}
+
+.form__map__description p {
+  color: #fff;
+}
+
+.form__map__description img {
+  background-clip: #252B42;
+}
+
+.form__map__description:not(:last-child) {
+  margin-right: 100px;
+}
+
+.form__container-fluid {
+  width: 100%;
+  background-color: #252B42;
+}
+
+.form__registr {
+  position: absolute;
+  left: 190px;
+  display: flex;
+  height: 642px;
+}
+
+.form__registr form {
+  width: 750px;
+  background-color: #fff;
+  padding: 40px 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__registr form input, .form__registr form select {
+  padding: 15px 25px;
+  margin-bottom: 15px;
+}
+
+.form__registr form label {
+  margin-bottom: 15px;
+}
+
+.form__registr form button {
+  padding: 15px 40px;
+  background-color: #FF7B47;
+  border: none;
+  margin-top: 10px;
+}
+
+/*========== Form Section ends============*/
 /*==========MAIN END==========*/
 /*Media Query 1200px start*/
 /*Media Query 1200px end*/

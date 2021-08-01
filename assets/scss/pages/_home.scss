@@ -187,5 +187,67 @@
 }
 /*========== Team Section ends============*/
 
+/*========== Form Section starts============*/
+.form{
+    height: 1290px;
+    background-color: $background-color;
+    position: relative;
+    &__map{
+        display: flex;
+        padding: 100px;
+        height: 600px;
+        // background-color: $text-color;
+        &__description{
+            color: $light-color;
+            p{
+                color: $light-color;
+            }
+            img{
+                background-clip: $text-color ;
+            }
+            &:not(:last-child){
+                margin-right: 100px;
+            }
+        }
+    }
+    &__container-fluid{
+        width: 100%;
+        background-color: $text-color;
+    }
+    &__registr{
+        position: absolute;
+        left: 190px;
+        
+        display: flex;
+        height: 642px;
+        form{
+            width: 750px;
+            background-color: $light-color;
+            padding: 40px 50px;  
+            display: flex;
+            flex-direction: column;
+            input, select{
+                padding: 15px 25px;
+                margin-bottom: 15px;
+                
+            }
+           
+            label{
+                margin-bottom: 15px;
+            }
+
+            button{
+                padding: 15px 40px;
+                background-color: $primary-color;
+                border: none;
+                margin-top: 10px;
+            }
+            
+        }
+        
+    }
+}
+/*========== Form Section ends============*/
+
 
 /*==========MAIN END==========*/
