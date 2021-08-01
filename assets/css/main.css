@@ -13,7 +13,6 @@
 
 html {
   font-size: 14px;
-  background-image: url("/assets/images/images/background.jpg");
   background-repeat: no-repeat;
   height: 793px;
   width: 1498px;
@@ -109,6 +108,10 @@ p {
 /*==========NAVIGATION START==========*/
 /*==========NAVIGATION END==========*/
 /*==========HEADER START==========*/
+header {
+  position: absolute;
+}
+
 header .container {
   display: flex;
   justify-content: space-between;
@@ -178,6 +181,8 @@ header .container .nav__toggle {
   align-items: center;
   height: 760px;
   position: relative;
+  background-image: url(/assets/images/images/background.jpg);
+  background-size: cover;
 }
 
 .content__main {
