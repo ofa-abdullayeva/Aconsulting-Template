@@ -6,10 +6,22 @@
     padding: 10px, 36px, 10px, 36px;
     border: 1px solid;
     padding: 10px 36px;
+    transition: ease .3s;
     &-first{
         background-color: $primary-color;
         color: $light-color;
         border: none;
+        &:hover{
+            background:transparent;
+            color: $primary-color;
+            border: 1px solid;
+            
+        }
+    }
+
+    &-second{
+        color: $light-color;
+       
     }
 }
 

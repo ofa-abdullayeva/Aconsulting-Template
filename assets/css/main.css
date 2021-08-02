@@ -88,12 +88,23 @@ p {
   padding: 10px, 36px, 10px, 36px;
   border: 1px solid;
   padding: 10px 36px;
+  transition: ease .3s;
 }
 
 .btn-first {
   background-color: #FF7B47;
   color: #fff;
   border: none;
+}
+
+.btn-first:hover {
+  background: transparent;
+  color: #FF7B47;
+  border: 1px solid;
+}
+
+.btn-second {
+  color: #fff;
 }
 
 /*==========BUTTONS END==========*/
@@ -219,6 +230,7 @@ header .nav__toggle {
 .content__description__item__logo img {
   width: 48px;
   height: 47.41px;
+  margin-right: 10px;
 }
 
 /*========== Content Section Ends============*/
@@ -425,6 +437,7 @@ header .nav__toggle {
 .form__registr form input, .form__registr form select {
   padding: 15px 25px;
   margin-bottom: 15px;
+  border-radius: 5px;
 }
 
 .form__registr form label {
@@ -436,6 +449,8 @@ header .nav__toggle {
   background-color: #FF7B47;
   border: none;
   margin-top: 10px;
+  border-radius: 5px;
+  color: #fff;
 }
 
 /*========== Form Section ends============*/
