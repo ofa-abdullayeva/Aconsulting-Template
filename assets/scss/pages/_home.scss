@@ -11,6 +11,7 @@
     background-size: cover;
     
     
+    
     &__main{
         width: 860px;
         height: 428px;
@@ -27,22 +28,30 @@
           
     }
     &__description{
-        .container{
-            position: absolute;
-            bottom: -15px;
-            display: flex;
-            &__item{
-                display: flex;
+        width: 1049px;
+        height: 96px;
+        background-color: $light-color;
+        position: absolute;
+        bottom: -50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        &__item{
+        display: flex;
+        h3{
+            color: $text-color;
+        }
+      
 
-                &__logo{
-                    img{
-                        width: 48px;
-                        height: 47.41px;
-                    }
-                    
+        &__logo{
+            img{
+                width: 48px;
+                height: 47.41px;
                 }
+                    
             }
-         }
+        }
+         
             
       
     }
@@ -55,7 +64,7 @@
 
 .services{
     background: #FAFAFA;
-    padding-top: 80px;
+    padding-top: 120px;
     padding-bottom: 50px;
 
     &__items{

@@ -13,7 +13,6 @@
 
 html {
   font-size: 14px;
-  background-repeat: no-repeat;
   height: 793px;
   width: 1498px;
 }
@@ -110,29 +109,27 @@ p {
 /*==========HEADER START==========*/
 header {
   position: absolute;
-}
-
-header .container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  opacity: 1;
 }
 
-header .container .nav__icon h3 {
+header .nav__icon h3 {
   color: #fff;
 }
 
-header .container .nav__list {
+header .nav__list {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-header .container .nav__list__item {
+header .nav__list__item {
   margin-right: 21px;
 }
 
-header .container .nav__toggle {
+header .nav__toggle {
   display: none;
 }
 
@@ -200,17 +197,26 @@ header .container .nav__toggle {
   margin-bottom: 40px;
 }
 
-.content__description .container {
+.content__description {
+  width: 1049px;
+  height: 96px;
+  background-color: #fff;
   position: absolute;
-  bottom: -15px;
+  bottom: -50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.content__description__item {
   display: flex;
 }
 
-.content__description .container__item {
-  display: flex;
+.content__description__item h3 {
+  color: #252B42;
 }
 
-.content__description .container__item__logo img {
+.content__description__item__logo img {
   width: 48px;
   height: 47.41px;
 }
@@ -219,7 +225,7 @@ header .container .nav__toggle {
 /*========== Services Section Ends============*/
 .services {
   background: #FAFAFA;
-  padding-top: 80px;
+  padding-top: 120px;
   padding-bottom: 50px;
 }
 
